@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codelab-Modul2</title>
+    <link rel="stylesheet" href="styleC.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Penjumlahan</h1>
+        <label for="bil1">Bilangan Pertama</label>
+        <input type="number" name="Bilangan 1" id="bil1">
+
+        <label for="bil2">Bilangan Kedua</label>
+        <input type="number" name="Bilangan 2" id="bil2">
+
+        <div style="text-align: center;">
+            <button onclick="hitung()">Jumlahkan</button>
+            <button class="reset" onclick="reset()">Reset</button>
+        </div>
+
+        <div class="hasil">
+            Hasil: <span id="hasil">0</span>
+        </div>
+    </div>
+    
+    <script src="scriptC.js"></script>
+</body>
+</html>
